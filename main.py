@@ -1,4 +1,3 @@
-from routes import router
 from fastapi_app.app_v1 import basic_app
 import uvicorn 
 
