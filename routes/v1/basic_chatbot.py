@@ -1,4 +1,4 @@
-from llm.groq_chat_model import groq_chat_model as GroqModel
+from llm.groq_chat_model import gpt_oss_120b as GroqModel
 from dotenv import load_dotenv
 load_dotenv()
 from fastapi import FastAPI, APIRouter
